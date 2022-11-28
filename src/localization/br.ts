@@ -43,7 +43,11 @@ export const br = {
 				"O caminho da minha jornada profissional.",
 			],
 			paragraphs: [
-				"Meu inicio como desenvolvedor foi veio muito antes do meu curso no senai. Quando ganhei meu primeiro celular aos 15 anos e comecei a navegar pela internet, sempre fui curioso sobre como os sites funcionavam e interagiam comigo, aquilo me enchiam os olhos.",
+				"Meu inicio como desenvolvedor veio muito antes do meu curso no senai. Quando ganhei meu primeiro celular aos 15 anos e comecei a navegar pela internet, sempre fui curioso sobre como os sites funcionavam e interagiam comigo, aquilo me enchiam os olhos.",
+				"No tempo, “comunidades Wap” estavam em alta e como todo jovem sonhador, queria criar uma diferente e que todo mundo gostava. Então comecei a estudar a plataforma wapka.mobi (falecida) onde se fazia uso de HTML 5 e CSS. Não existiam deploys, eu editar o arquivo da tela na própria plataforma, seguindo uns tutoriais que o próprio pessoal compartilhava.",
+				"Minha comunidade se chamava “Patrões na Wap” e o foco era ter joguinhos pro pessoal ganhar pontos e subir no ranking, com um chat e um fórum, média de 1 pessoa por dia (eu criando mais joguinhos e atualizando o script).",
+				"Logo então a wapka faliu, e eu fui forçado a migrar com toda a minha vontade para o PHP, e aí sim, começou o desafio. Programar com um celular de 12 teclas e sem saber onde era a linha 14 do erro porque o editor não mostrava não era para qualquer um, mas eu me divertia à beça e perdia tardes e tardes juntando códigos de desconhecidos para formar minha comunidade wap.",
+				"Desisti da comunidade wap, a minha não tava tão badalada então resolvi mudar o público alvo - meus amigos. Então desenvolvi um jogo RPG baseado em texto chamado “Mundo Sombrio”. Era baseado em sobrenatural, tinha um modo história com um boss no final, e você podia lutar batalhas ranqueadas contra os bots dos seus amigos.",
 			]
 		},
 	},
