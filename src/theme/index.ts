@@ -56,6 +56,9 @@ const Text: ComponentStyleConfig = {
 }
 
 export const theme = extendTheme({
+	config: {
+		initialColorMode: "dark",
+	},
 	components: {
 		Heading,
 		Text,

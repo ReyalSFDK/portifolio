@@ -11,18 +11,23 @@ import {
 export const Home: React.FC = () => {
 	const [currentSection, setCurrentSection] = React.useState<Section>("welcome");
 
+	const goToCurrentSection = (section: Section) => {
+		window.scrollTo(0, 0);
+		setCurrentSection(section)
+	}
+
 	const renderSection = () => {
 		switch (currentSection) {
 			case "aboutMe":
-				return <AboutMeSection setCurrentSection={setCurrentSection} />;
+				return <AboutMeSection setCurrentSection={goToCurrentSection} />;
 			case "experience":
-				return <ExperienceSection setCurrentSection={setCurrentSection} />;
+				return <ExperienceSection setCurrentSection={goToCurrentSection} />;
 			case "jobs":
-				return <JobSection setCurrentSection={setCurrentSection} />;
+				return <JobSection setCurrentSection={goToCurrentSection} />;
 			case "welcome":
-				return <WelcomeSection setCurrentSection={setCurrentSection} />;
+				return <WelcomeSection setCurrentSection={goToCurrentSection} />;
 			case "personalProjects":
-				return <PersonalProjects setCurrentSection={setCurrentSection} />;
+				return <PersonalProjects setCurrentSection={goToCurrentSection} />;
 		}
 	}
 
@@ -30,13 +35,15 @@ export const Home: React.FC = () => {
 		<Flex
 			justifyContent="center"
 			w="100%"
+			maxW="container.lg"
+			mx="auto"
 			px={10}
-			mt={100}
+			mb={50}
 		>
 			<Box
 				textAlign="left"
 				marginTop={{
-					lg: 20,
+					lg: 10,
 				}}
 			>
 				{renderSection()}

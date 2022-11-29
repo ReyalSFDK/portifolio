@@ -23,22 +23,28 @@ export const ChoiceButtons: React.FC<IProps> = (props) => {
 				md: 2,
 			}}
 		>
-			{choices.map((choice, i) => (
-				<Button
-					key={`${section}-choice-${i}`}
-					size="lg"
-					variant="outline"
-					fontWeight="bolder"
-					onClick={choice.onClick}
-					style={{
-						whiteSpace: "normal",
-						wordWrap: "break-word",
-					}}
-					py={8}
-				>
-					{Utils.handleText(choice.question)}
-				</Button>
-			))}
+			{choices.map((choice, i) => {
+				const randomColor = Utils.getColorFromString(Utils.handleText(choice.question));
+
+				return (
+					<Button
+						key={`${section}-choice-${i}`}
+						size="lg"
+						variant="outline"
+						fontWeight="bolder"
+						onClick={choice.onClick}
+						style={{
+							whiteSpace: "normal",
+							wordWrap: "break-word",
+							borderColor: randomColor,
+							color: randomColor,
+						}}
+						py={8}
+					>
+						{Utils.handleText(choice.question)}
+					</Button>
+				)
+			})}
 		</SimpleGrid>
 	)
 }

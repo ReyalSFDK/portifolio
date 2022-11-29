@@ -37,13 +37,16 @@ export const WelcomeSection: React.FC<IProps> = (props) => {
 		},
 	];
 
+	const headingText = Utils.handleText(welcome.headingText);
+
 	return (
 		<>
 			<Heading
 				size="2xl"
 				variant="htmlTags"
+				color={Utils.getColorFromString(headingText)}
 			>
-				{Utils.handleText(welcome.headingText)}
+				{headingText}
 			</Heading>
 			{
 				welcome.paragraphs.map((paragraph, i) => (
@@ -60,5 +63,5 @@ export const WelcomeSection: React.FC<IProps> = (props) => {
 				choices={choices}
 			/>
 		</>
-	)
+	);
 }

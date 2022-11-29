@@ -20,6 +20,12 @@ export const ExperienceSection: React.FC<IProps> = (props) => {
 			},
 		},
 		{
+			question: questions.personalProjects,
+			onClick: () => {
+				setCurrentSection("personalProjects");
+			},
+		},
+		{
 			question: questions.aboutJobs,
 			onClick: () => {
 				setCurrentSection("jobs");
