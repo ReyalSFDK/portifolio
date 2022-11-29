@@ -26,6 +26,10 @@ export const br = {
 			],
 			paragraphs: [
 				"Então, me chamo Luan Oliveira Silva, tenho {years} anos, nascido e atualmente morando em Salvador-BA, tenho 3 gatinhos e amo games.",
+				"Gosto muito de escrever nas horas vagas, você deve ter percebido por esse longo portfólio lotado de textos, gosto de artigos e as mais diversas curiosidades, amo conhecer histórias novas e montar as minhas próprias - mesmo que sejam somente protótipos - e sim, amo bastante prototipar ideias, sejam para jogos ou aplicativos novos, ideas sempre veem e vão.",
+				"Amo a área da tecnologia e qualquer coisa relacionada, sempre busco me atualizar com as modernidades e sempre que posso, me atualizo para as mais novas versões (amo experimentar últimas atualizações de sistemas, frameworks e tudo mais).",
+				"Gosto de praticar esportes sempre que posso, meu favorito é o futebol mas eu gosto de esportes em geral, então sempre que tenho oportunidade eu experimento - sempre tentando dar o máximo, sou bastante competitivo e se dar pra ganhar, eu vou fazer de tudo pra ganhar XD.",
+				"Amo animais, fui adotado por uma gatinha de rua que, logo depois de levá-la a um veterinário, descobrir que estava gravidinha e deus a luz a dois gatinhos lindinhos - costumo dizer que tive uma experiência de “pai”, pois acompanhei de perto a gravidez dela e até massagem na barriguinha dela eu fazia para aliviar a cólica. A mãe se chama dione, ai tem o marrom (que é laranja) e negão (que é cinza) - os nomes dos filhotes foram dados por minha mãe, não me perguntem o critério dela -. E como um bom pai de pet, amo tirar fotos dos meus gatos, na verdade, eu amo tirar fotos dos momentos (e das receitas que eu faço) para guardar de recordação - contanto que eu não esteja nelas hehe.",
 			]
 		},
 		jobs: {
