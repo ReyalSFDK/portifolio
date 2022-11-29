@@ -2,7 +2,8 @@ import * as React from "react"
 import { HStack, Heading, Stack, IconButton, useColorModeValue } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "../../ColorModeSwitcher";
 import { GiBrazilFlag, GiUsaFlag } from "react-icons/gi";
-import { strings} from "../../localization";
+import { strings } from "../../localization";
+import Typewriter from 'typewriter-effect';
 import { Utils } from "../../utils";
 
 export const Navbar: React.FC = () => {
@@ -28,7 +29,16 @@ export const Navbar: React.FC = () => {
 				textAlign="center"
 				size="md"
 			>
-				{Utils.handleText(strings.navbar.title)}
+				<Typewriter
+					options={{
+						strings: Utils.shuffleArray(strings.navbar.title),
+						autoStart: true,
+						delay: 150,
+						deleteSpeed: 1,
+						loop: true,
+						skipAddStyles: true,
+					}}
+				/>
 			</Heading>
 			<HStack
 				spacing={2}
