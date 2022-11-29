@@ -1,6 +1,12 @@
 import * as React from "react"
 import { Box, Flex } from "@chakra-ui/react";
-import { AboutMeSection, ExperienceSection, JobSection, WelcomeSection } from "../../components";
+import {
+	AboutMeSection,
+	ExperienceSection,
+	JobSection,
+	PersonalProjects,
+	WelcomeSection
+} from "../../components";
 
 export const Home: React.FC = () => {
 	const [currentSection, setCurrentSection] = React.useState<Section>("welcome");
@@ -15,6 +21,8 @@ export const Home: React.FC = () => {
 				return <JobSection setCurrentSection={setCurrentSection} />;
 			case "welcome":
 				return <WelcomeSection setCurrentSection={setCurrentSection} />;
+			case "personalProjects":
+				return <PersonalProjects setCurrentSection={setCurrentSection} />;
 		}
 	}
 

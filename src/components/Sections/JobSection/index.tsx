@@ -14,6 +14,12 @@ export const JobSection: React.FC<IProps> = (props) => {
 
 	const choices = [
 		{
+			question: questions.personalProjects,
+			onClick: () => {
+				setCurrentSection("personalProjects");
+			},
+		},
+		{
 			question: questions.aboutMe,
 			onClick: () => {
 				setCurrentSection("aboutMe");

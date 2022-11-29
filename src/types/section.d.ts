@@ -1,1 +1,1 @@
-type Section = "welcome" | "aboutMe" | "jobs" | "experience";
+type Section = "welcome" | "aboutMe" | "jobs" | "experience" | "personalProjects";
