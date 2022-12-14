@@ -7,14 +7,14 @@ export const br = {
 			ariaLabel: "Trocar para o Português (Idioma atual).",
 		},
 		title: [
-			'"Com grandes códigos, vem testes maiores ainda."',
-			'"Todo bug morre, mas nem sempre as correções são lembradas."',
-			'"Na minha máquina funciona"',
-			'"Cada feature tem uma entrega. Mas cada entrega é um recomeço."',
-			'"As vezes encontrar a correção significa passar por grandes e vários erros."',
-			'"Bugs... Bugs nunca acabam."',
-			'"Não importa o quão escura a noite seja, o fix amanhã sempre vem."',
-			'"Não importa pelo quê, você tem que encontrar algo para codar."'
+			'Com grandes códigos, vem testes maiores ainda.',
+			'Todo bug morre, mas nem sempre as correções são lembradas.',
+			'Na minha máquina funciona',
+			'Cada feature tem uma entrega. Mas cada entrega é um recomeço.',
+			'As vezes encontrar a correção significa passar por grandes e vários erros.',
+			'Bugs... Bugs nunca acabam.',
+			'Não importa o quão escura a noite seja, o fix amanhã sempre vem.',
+			'Não importa pelo quê, você tem que encontrar algo para codar.'
 		]
 	},
 	sections: {
