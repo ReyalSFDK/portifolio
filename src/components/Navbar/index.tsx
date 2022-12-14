@@ -36,7 +36,6 @@ export const Navbar: React.FC = () => {
 						delay: 150,
 						deleteSpeed: 1,
 						loop: true,
-						skipAddStyles: true,
 					}}
 				/>
 			</Heading>
